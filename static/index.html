@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rubik's Cube Race</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header id="top">
+  <div class="id-badge"><span id="studentName">Student</span><span class="dot">|</span><span id="studentRoll">Roll</span></div>
+  <h1>RUBIK'S CUBE RACE</h1>
+  <div class="top-right"><span id="modeBadge" class="badge">idle</span><span id="clock" class="badge ghost">AI Engineering | Assignment 02</span></div>
+</header>
+
+<main>
+  <section class="controls">
+    <label>Mode
+      <select id="mode"><option value="sim">Simulated (offline)</option><option value="live">Live (OpenRouter)</option></select>
+    </label>
+    <label>Warm-up <input id="nWarmup" type="number" min="0" max="50" value="0"></label>
+    <label>Primary <input id="nPrimary" type="number" min="0" max="50" value="3"></label>
+    <label>Extension <input id="nExtension" type="number" min="0" max="50" value="0"></label>
+    <label>Seed <input id="seed" type="text" value="a02"></label>
+    <button id="run">Run benchmark</button>
+    <button id="showStats" class="secondary" disabled>Show benchmarks</button>
+    <span id="notice"></span>
+  </section>
+
+  <section class="puzzlebar">
+    <div><b id="pzLabel">No puzzle yet</b><span id="pzMeta"></span></div>
+    <div id="pzProgress"></div>
+  </section>
+
+  <section id="arena" class="arena"></section>
+</main>
+
+<div id="slide" class="slide hidden">
+  <div class="slide-inner">
+    <div class="slide-head">
+      <h2>Statistical benchmarks</h2>
+      <div><span id="slideMode" class="badge"></span><button id="closeSlide" class="secondary">Back to race</button></div>
+    </div>
+    <div id="statsTable"></div>
+    <div id="statsCharts" class="charts"></div>
+    <div id="answers"></div>
+  </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
