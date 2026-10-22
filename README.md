@@ -14,7 +14,7 @@ The goal is to understand whether a faster decision-making model can compete wit
 
 ## Demo Screen Recording
 
-**[Watch the screen recording](https://github.com/Urooj-Baloch/Rubiks-cube-race/blob/main/demo%20drive%20link.txt)**
+**(https://github.com/Urooj-Baloch/Rubiks-cube-race/blob/main/demo%20drive%20link.txt)**
 
 The demo shows the four models racing on the same scrambled cube. It includes the race while it is running, the final results for each model, and a statistics slide comparing their performance. My name and roll number are also visible throughout the recording.
 
