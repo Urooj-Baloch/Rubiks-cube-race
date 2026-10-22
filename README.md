@@ -19,7 +19,7 @@ The goal is to understand whether a faster decision-making model can compete wit
 The demo shows the four models racing on the same scrambled cube. It includes the race while it is running, the final results for each model, and a statistics slide comparing their performance. My name and roll number are also visible throughout the recording.
 
 <!-- NOTE:START -->
-The screen recording (`demo/demo.mp4`) and the results in the Live Run section are from an actual experiment using Ollama models on a Google Colab T4 GPU. The results reflect the performance of the models on that hardware.
+The screen recording and the results in the Live Run section are from an actual experiment using Ollama models on a Google Colab T4 GPU. The results reflect the performance of the models on that hardware.
 <!-- NOTE:END -->
 
 ## Features
